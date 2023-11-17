@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "module": "commonjs",
+        "target": "ES2016",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "build",
+        "skipLibCheck": true,
+        "declaration": true,
+        "declarationMap": true,
+        "declarationDir": "build",
+        "strictNullChecks": false,
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "plugins": [{"name": "typescript-plugin-css-modules"}]
+    },
+    "include": ["src"],
+    "exclude": ["node_modules","build"],
+    "lib": ["es2015"],
+    
+  }
